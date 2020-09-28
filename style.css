@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    flex: 0 0 auto;
+    margin: 0;
+    background-color: #333333;
+}
+
+    .header_logo {
+        margin: 10px 0;
+    }
+
+        .header_logo img {
+            max-width: 350px;
+        }
+
+    .mainmenu {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+        height: 100%;
+        align-items: center;
+        flex: 9 1 auto;
+        list-style-type: none;
+    }
+
+        .mainmenu li {
+            margin: 0 10px;
+            padding: 10px;
+        }
+
+        .mainmenu li a,
+        .mainmenu li a:visited {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+main {
+    background: #FFDD00;
+    margin: 0;
+}
+
+.block {
+    padding: 30px;
+}
+
+    .block-search {
+        background: url('images/bg_search.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 300px;
+    }
+
+    .block-search_header {
+        color: #ffffff;
+    }
+
+    .block-search_form
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .block-search_form select,
+    .block-search_form input {
+        margin: 10px;
+        border: 2px solid #A68F00;
+        border-radius: 15px;
+        width: 150px;
+        height: 30px;
+    }
+
+    .block-search_form button[type="submit"] {
+        width: 150px;
+        height: 30px;
+        background: #A68F00;
+        color: #ffffff;
+        border: 2px solid #FFEC73;
+        border-radius: 15px;
+    }
+
+footer {
+    width: 100%;
+    background-color: #dcdcdc;
+}
