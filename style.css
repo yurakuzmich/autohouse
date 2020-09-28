@@ -23,6 +23,10 @@ header {
             max-width: 350px;
         }
 
+        .header_logo_small {
+            
+        }
+
     .mainmenu {
         display: flex;
         justify-content: space-between;
