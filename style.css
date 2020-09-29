@@ -17,7 +17,7 @@ header {
 
     .header_logo {
         margin: 10px 0;
-        
+
     }
 
         .header_logo img {
@@ -132,6 +132,10 @@ main {
         align-items: center;
     }
 
+    .block-news_article:last-child {
+        height: 50px;
+    }
+
     .block-news_thumb {
         float: left;
         margin: 0 10px 10px 0;
@@ -207,7 +211,7 @@ footer {
     margin: 20px;
     width: 50px;
     height: 50px;
-    background: #eeeeeeb;
+    background: #eeeeee;
     cursor: pointer;
     border-radius: 50%;
 
@@ -242,3 +246,57 @@ footer {
     background: url('images/mapmarker.png') center no-repeat;
 }
 
+
+
+/* Слайдер */
+.slider-window {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.slider-body {
+    position: relative;
+    flex-grow: 8;
+    overflow: hidden;
+    display: flex;
+
+    /* height: 720px; */
+}
+
+.slider-image {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 0px;
+    z-index: 1000;
+    flex-grow: 9;
+    flex-shrink: 1;
+}
+
+.slider-leftarrow,
+.slider-rightarrow {
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: #aaaaaa;
+    cursor: pointer;
+    min-width: 50px;
+    opacity: .5;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.slider-leftarrow:hover,
+.slider-rightarrow:hover {
+    opacity: 1;
+}
+
+.slider-arrow {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
