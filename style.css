@@ -142,7 +142,7 @@ main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
         color: #333333;
-        opacity: .9;
+        opacity: .85;
     }
 
     .block-news_link:hover {
@@ -228,14 +228,14 @@ footer {
 }
 
 .sociallink-button_mail::after {
-    background: url('http://defaulticon.com/images/icons32x32/mail.png') center no-repeat;
+    background: url('images/mail.png') center no-repeat;
 }
 
 .sociallink-button_phone::after {
-    background: url('http://defaulticon.com/images/icons32x32/i-phone.png') center no-repeat;
+    background: url('images/iphone.png') center no-repeat;
 }
 
-.sociallink-button_chat::after {
-    background: url('http://defaulticon.com/images/icons32x32/chat.png') center no-repeat;
+.sociallink-button_map::after {
+    background: url('images/mapmarker.png') center no-repeat;
 }
 
